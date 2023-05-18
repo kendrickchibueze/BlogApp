@@ -1,0 +1,46 @@
+/*
+
+
+
+.example-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.mat-form-field {
+  width: 90vw; !* Adjust the width as desired *!
+  max-width: 800px; !* Set a maximum width if needed *!
+}
+
+
+*/
+
+.example-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 90%; /* Adjust the width as desired */
+  max-width: 800px; /* Set a maximum width if needed */
+}
+
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+textarea.mat-input-element {
+  height: 400px; /* Adjust the height as desired */
+}
+
+.form-container .example-section {
+  margin: 12px 0;
+}
